@@ -1,0 +1,208 @@
+
+html            {font-size: 62,5%;}
+header          {font-size: 2rem;}
+section         {font-size: 1.1rem;}
+section h2      {font-size: 1.2em;}
+footer          {font-size: 1rem;}
+footer address  {font-size: 0.8em;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+
+
+#img-logo{
+    width: 8.0rem;
+    height: 3.0rem;
+}
+
+header { 
+    background-color: black;
+    padding: 10px;
+
+}
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65rem;}
+    
+
+
+#sfondo-top {
+    background-image: url("../images/banner.jpg");
+    background-size:cover;
+    
+    
+
+}
+
+button a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    
+} 
+
+button {
+    background-color: #f04c2f;
+    border-radius: 4%;
+    border: 0px;
+    padding: 10px 30px 10px 30px;
+    margin: 20px;
+    margin-bottom: 50px;
+    
+
+}
+
+
+h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        font-weight: bold;
+    }    
+
+
+h1 {
+    color: #25a2c3;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+    padding: 25px;
+    line-height: 40px;
+}
+
+
+h3 {
+    color: #25a2c3;
+    font-size: large;
+    font-weight: bold;font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#testimonianze h2 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    margin: 30px;
+    padding: 30px;
+}
+#img-lavora { 
+    width: 300px;
+    height: 300px;
+}
+
+section figure img {
+    border-radius: 100%;
+
+    
+}
+
+
+#testimonianze {
+    background-color: red;
+    color: white;
+    
+
+}
+
+blockquote, figcaption {
+    color: white;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 19px;
+
+}
+
+figcaption {
+    font-size: 19px;
+}
+
+
+
+.img-box {
+       width: 200px;
+       padding-left: 10px;
+       padding-right: 10px;
+       border-left: 5px;
+       border-right: 5px;
+      font-size: small;
+
+   } 
+
+
+
+span {
+    font-size: 10px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 35px;
+    font-size: 19px;
+    font-weight:normal ;
+    line-height: 35px;
+}
+
+aside div h3, aside div p{
+    font-size: 1em;
+}
+
+aside figure img{
+    width: 100%;
+}
+
+aside>div {
+    border: 1px solid #dee1e3;
+    margin: 2em;
+
+}
+
+footer {font-size: 1rem;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    line-height: 1.8em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    
+}
+
+
+footer address
+    {font-size: 1.2em;
+
+
+}
+
+footer h2, footer a{
+    color: white;
+}
+
+footer h2{
+    font-size: 35px;
+    margin: 10px;
+    padding-bottom: 1.5em;
+    padding-top: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+
+footer hr{
+    border-top: 1px solid white;
+    margin: 1.8em 8em 1.8em 8em
+
+}
+
+ul {
+    list-style-type: none;
+   }
+
+small{
+    font-size: 1em;
+    
+}
+

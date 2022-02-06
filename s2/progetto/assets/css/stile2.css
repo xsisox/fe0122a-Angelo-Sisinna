@@ -17,29 +17,86 @@ hr{
 }
 
 /* RESPONSIVE */
+@media screen and (min-width:800px){
 
-/* HEADER */
+main{
+    display:flex;
+    justify-content: space-around;
+    }
+  
+.button {
+
+}
+
+main fieldset, main section {
+      flex-basis: 40%;
+    }
+  
+
+footer section {
+          display: flex;
+      }
+     
+footer section div{
+        flex-basis: 30%;
+        margin-right: 1em;
+      }
+      
+footer{
+       padding-left: 3em;
+        padding-right: 3em;
+      }
+  
+  
+#logo{
+      margin-top: 20px;
+      margin-left: 20px;
+      position: relative;
+          
+      }
+  
+header{
+        visibility: hidden;
+      }
+  }
+
+@media screen and (min-width:1200px){ 
+main{
+     padding-left: 7em;
+     padding-right: 7em;
+    }
+    
+footer{
+       padding-left: 10em;
+       padding-right: 10em;
+    }
+
+address{
+        text-align: center;
+    }
+}
+
+/*HEADER*/
 
 header{
     position: sticky;
     top: 0px;
-    
     width: 100%;
     height: 100px;
     background-color: white;
+    z-index: 3;
 }
 
 .fas.fa-ellipsis-h, .far.fa-comment-dots, .fas.fa-map-marker-alt, .fas.fa-user, .far.fa-grin-stars, .fab.fa-facebook-square,
 .fab.fa-linkedin, .fab.fa-instagram{
-    color: #e42424;
-    font-size: 1.5em;
+    color: #e42424;font-size: 1.5em;
 }
 
 #logo{
     margin-top: 20px;
     margin-left: 20px;
     position: sticky;
-    z-index: 3;
+    z-index: 2;
 }
 
 header nav ul{
@@ -48,7 +105,7 @@ header nav ul{
     transition: top 1s;
     background-color: white;
     width: 100vw;
-    height: 35vh;
+    height: 190px;
     z-index: 1;
     box-shadow: 2px 2px 6px #666;
     padding-top: 70px;
@@ -56,9 +113,9 @@ header nav ul{
     list-style: none;
 }
 
-nav a{
+nav a {
+    color: gray;
     text-decoration: none;
-    color: grey;
 }
 
 .btnMenu{
@@ -77,19 +134,20 @@ nav a{
 .button {
     display: inline-block;
     color: white;
-    background: rgb(108,193,226);
+    background-color: rgb(108,193,226);
     background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(57,47,122,1) 100%);
     border: 0;
-    text-align: center;
     font-size: 1.2rem;
     padding: 6px;
-    text-shadow: 2px 1px #666;
     text-decoration: none;
-    box-shadow: 2px 1px 6px #666;
-    margin-bottom: 2em;
+    text-shadow: 2px 1px 6px gray;
+    text-align: center;
 }
 
+
+
 /* MAIN */
+
 main{
     text-align: center;
     margin-right: 1em;
@@ -102,9 +160,8 @@ h1{
     text-shadow: 2px 1px #666;
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
-
-
 
 h2{
     font-size: 35px;
@@ -144,17 +201,17 @@ main p{
 
 
 
-
 /* FOOTER */
+
 footer{
     padding: 2em;
-    background-color: #eeeeee
+    background-color: #eeeeee;
+
 }
 
 footer p, address{
     margin-right: 0;
-    margin-top: 1em;
-}
+    margin-top: 1em;}
 
 h4{
     line-height: 1.1em;
@@ -162,15 +219,17 @@ h4{
     margin-top: 2em;
 }
 
+address{
+    font-size: 15px
+}
+
 footer fieldset input {
     height: 50px;
+
 }
 
 fieldset form{
     display: flex;
     flex-direction: column;
 }
-
-
-
 

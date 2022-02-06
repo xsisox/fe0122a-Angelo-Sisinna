@@ -1,0 +1,215 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+
+ /* font-family: 'Fira Sans', sans-serif; */
+
+
+body{
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+    }
+
+hr{
+    display: none;
+}
+
+
+
+/* HEADER */
+
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 6px #666;
+}
+
+.fas.fa-ellipsis-h, .far.fa-comment-dots, .fas.fa-map-marker-alt, .fas.fa-user, .far.fa-grin-stars, .fab.fa-facebook-square,
+.fab.fa-linkedin, .fab.fa-instagram{
+    color: #e42424;
+    font-size: 1.5em;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: sticky;
+    z-index: 3;
+}
+
+header nav ul{
+    position: fixed;
+    top: -103%;
+    transition: top 1s;
+    background-color: white;
+    width: 100vw;
+    height: 190px;
+    z-index: 1;
+    box-shadow: 2px 2px 6px #666;
+    padding-top: 70px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.btnMenu{
+    display: none;
+}
+.btnMenu:checked ~ nav ul{
+    top: 0;
+}
+.icoMenu{
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+    z-index: 2;
+}
+
+.button {
+    display: block;
+    color: white;
+    background: rgb(108,193,226);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(57,47,122,1) 100%);
+    border: 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    text-shadow: 2px 1px #666;
+    text-decoration: none;
+    box-shadow: 2px 1px 6px #666;
+    margin-bottom: 2em;
+}
+
+/* MAIN */
+
+main{
+    text-align: center;
+    margin: 2em 0 2em 0;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+h1{
+    font-size: 50px;
+    line-height: 1.1em;
+    text-shadow: 2px 1px #666;
+    margin-bottom: 1em;
+}
+
+main p {
+   font-size: 15px;
+   padding: 10px;
+   margin: 10px;
+}
+/* article{
+    text-align: center;
+    margin-top: 40px;
+    padding: 1em;} */
+
+#portatile{
+    width: 100%;
+
+}   
+
+#portatile-chiuso{
+    width: 100%;
+
+}
+
+caption{
+    font-size: 18px;
+}
+
+table{
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+thead {
+    background-color: #5f82a3;
+    
+    color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+tbody{
+    background-color: #d2dce7;
+    padding: 20px;
+    margin: 20px;
+}
+
+#w{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+tfoot {
+    background-color: #d2dce7;
+    padding: 20px;
+    margin: 20px;
+   
+}
+
+
+/* FOOTER */
+footer p {
+    font-size: 15px;
+}
+
+footer{
+    padding: 2em;
+    background-color: #eeeeee
+}
+
+footer p, address{
+    margin-right: 0;
+    margin-top: 1em;
+    font-size: 12px;
+}
+
+h4{
+    line-height: 1.1em;
+    margin-bottom: 0.6em;
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+footer fieldset input {
+    height: 50px;
+}
+
+fieldset form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    display: block;
+    color: white;
+    background: rgb(108,193,226);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(57,47,122,1) 100%);
+    border: 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    text-shadow: 2px 1px #666;
+    text-decoration: none;
+    box-shadow: 2px 1px 6px #666;
+    margin-bottom: 2em;
+    width: 20px;
+    height: 15px;
+
+}

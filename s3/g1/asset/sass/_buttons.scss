@@ -1,0 +1,31 @@
+$back-button: black;
+$color:white;
+
+
+
+.btn-primary {
+    background-color: $back-button;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 10%;
+    text-decoration: none;
+    
+    
+
+}
+
+.btn-secondary {
+    background-color: $back-button;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 10%;
+    text-decoration: none;
+   
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: scale(2, 2);
+    background-color: red;
+}

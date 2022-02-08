@@ -1,0 +1,83 @@
+$menu-elements:inline-block;
+$secondary-color: gray;
+
+
+@media screen and (max-width: 800px){
+
+    header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li{
+        display: $menu-elements;
+
+        a{
+            text-decoration: none;
+            color: $secondary-color;
+            font-weight: bold;
+        }
+    }
+
+    img {
+        display: none;
+    }
+
+    .showcase-content {
+        color: white;
+        background-image: url(https://picsum.photos/id/0/450/450);
+        background-size: cover;
+        background-position: center center;
+        padding: 2em;
+    
+        p{
+            font-weight: bolder;
+            text-shadow: 1px 1px gray;
+        }
+    }
+    }
+}
+
+
+/* ANIMAZIONE */
+@-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }

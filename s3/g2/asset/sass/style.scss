@@ -1,0 +1,41 @@
+$main-back: black;
+$color-text: white ;
+$size-text: 1em;
+$font-text: 'Architects Daughter', cursive;
+$font-text2: 'Shadows Into Light', cursive;
+$font-text3: 'Indie Flower', cursive;
+$disp-flex: flex;
+
+@import 'head-foot';
+
+
+
+/* MAIN */
+
+body{
+    background-image: url(../img/montagne.jpg);
+    /* background-size: 700px 500px; */
+    
+    
+}
+
+#main{
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+    font-family: $font-text2;
+    color: $main-back;
+    
+
+    p{
+        font-family: $font-text3;
+    }
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    display: $disp-flex;
+    flex-direction: column;
+    position: sticky;
+}

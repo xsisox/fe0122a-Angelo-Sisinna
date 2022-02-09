@@ -1,0 +1,47 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+$main-back: black;
+$color-text: white ;
+$size-text: 1em;
+$font-text: 'Architects Daughter', cursive;
+$font-text2: 'Shadows Into Light', cursive;
+$font-text3: 'Indie Flower', cursive;
+$disp-flex: flex;
+$img-foot:('url');
+
+@mixin design{
+    background-color: $main-back;
+    color: $color-text;
+    font-size: $size-text;
+    font-family: $font-text;
+    display: $disp-flex;
+    height: 4em;
+    align-items: center
+    
+}
+/* NAVBAR */ 
+header{
+    @include design();
+    justify-content: center;
+    
+
+    a{
+        text-decoration: none;
+        color: $color-text;
+        
+    }
+
+    li{
+        display: inline-block;
+        margin-right: 1em;
+    }
+}
+
+/* FOOTER */
+
+
+    footer{
+        @include design()
+    }
+    

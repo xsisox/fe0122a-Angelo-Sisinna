@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Shadows+Into+Light&display=swap");
+/* NAVBAR */
+header {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  font-family: "Architects Daughter", cursive;
+  display: flex;
+  height: 4em;
+  align-items: center;
+  justify-content: center; }
+  header a {
+    text-decoration: none;
+    color: white; }
+  header li {
+    display: inline-block;
+    margin-right: 1em; }
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  font-family: "Architects Daughter", cursive;
+  display: flex;
+  height: 4em;
+  align-items: center; }
+
+/* MAIN */
+body {
+  background-image: url(../img/montagne.jpg);
+  /* background-size: 700px 500px; */ }
+
+#main {
+  display: flex;
+  margin: 1em;
+  justify-content: space-between;
+  font-family: "Shadows Into Light", cursive;
+  color: black; }
+  #main p {
+    font-family: "Indie Flower", cursive; }
+
+/* SIDEBAR */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  position: sticky; }

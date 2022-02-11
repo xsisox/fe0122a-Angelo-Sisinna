@@ -1,0 +1,55 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+@import "./fuctions";
+
+$colore: black;
+$carousel-transition-duration: 2s;
+$center-style: center;
+$pad-section: 50%;
+
+
+article{
+
+    .container{
+        text-align: $center-style;
+
+        
+        .news{
+            padding: $pad-section;
+        }
+    }    
+
+}
+
+
+.brand{
+  /*  flex-basis: 10%; */
+    text-align: $center-style;
+    padding: 12.8px;
+    flex-grow: 1;
+   
+}
+
+aside{
+    background-color: $colore;
+    color: set-contrast-color($colore);
+
+    .carousel-item {
+        transition-duration: $carousel-transition-duration;
+
+        .carosel_slide{
+            height: 270px;
+    }
+   
+
+    
+
+    
+
+        
+        
+    }
+}
+

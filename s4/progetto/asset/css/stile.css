@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shizuru&display=swap');
 /*font-family: 'Permanent Marker', cursive;
 font-family: 'Shizuru', cursive;*/
@@ -50,6 +52,7 @@ body{
     height:35px;
     margin-bottom: 10px;
     font-size: 35px;
+    font-family: 'Permanent Marker', cursive; 
     text-align: right;
     box-shadow: 4px 4px black;
     
@@ -60,6 +63,7 @@ button{
     height: 50px;
     box-shadow:4px 4px black;
     font-size:25px;
+    font-family: 'Permanent Marker', cursive; ;
     margin: 3px;
     
 }

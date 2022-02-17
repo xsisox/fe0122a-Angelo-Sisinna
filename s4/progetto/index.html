@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/stile.css">
+    
+    
+    <title>Calcolatrice</title>
+</head>
+<body>
+
+   
+        
+    <div class="calcolatrice">
+        <div id="cal">
+            <input id="risultato" type="text">
+            <div>
+                <button id="1" onclick="prendiTasto(this)">1</button>
+                <button id="2" onclick="prendiTasto(this)">2</button>
+                <button id="3" onclick="prendiTasto(this)">3</button>
+                <button id="/" onclick="prendiTasto(this)">/</button>
+            </div>
+            <div>
+                <button id="4" onclick="prendiTasto(this)">4</button>
+                <button id="5" onclick="prendiTasto(this)">5</button>
+                <button id="6" onclick="prendiTasto(this)">6</button> 
+                <button id="*" onclick="prendiTasto(this)">x</button>
+            </div>
+            <div>
+                <button id="7" onclick="prendiTasto(this)">7</button>
+                <button id="8" onclick="prendiTasto(this)">8</button>
+                <button id="9" onclick="prendiTasto(this)">9</button>
+                <button id="-" onclick="prendiTasto(this)">-</button>
+            </div>
+            <div>
+                <button id="C" onclick="resetCalcolatrice()">C</button>
+                <button id="0" onclick="prendiTasto(this)">0</button>
+                <button id="." onclick="prendiTasto(this)">.</button>
+                <button id="+" onclick="prendiTasto(this)">+</button>
+            </div>
+            <div> 
+                <button id="=" class="uguale" onclick="totale()">=</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <script src="asset/javascript/script.js"> </script>  
+    
+
+</body>
+</html>

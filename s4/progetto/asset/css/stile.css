@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shizuru&display=swap');
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Shizuru', cursive;*/
+
+
+body{
+    /*background-color: black;*/
+    background-image: url(../img/op2.png);
+    background-size: 400px;
+    
+    
+    
+
+}
+
+/*h1{
+    font-size:35px;
+    color:white;
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Permanent Marker', cursive;
+}*/
+
+/*#logo {
+   margin-left: 840px;
+}*/
+
+
+
+.calcolatrice{
+    text-align: center;
+    /*margin-top: 20px;*/
+    border-radius:10px;
+    background-color:gray;
+    width: 300px;
+    height: 360px;
+    margin: 10em auto;
+    box-shadow:5px 5px;
+    
+    
+}
+
+#cal{
+    padding-top:13px;
+
+}
+
+#risultato{
+    width:222px;
+    height:35px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: right;
+    box-shadow: 4px 4px black;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    box-shadow:4px 4px black;
+    font-size:25px;
+    margin: 3px;
+    
+}
+
+.uguale{
+    width:222px;
+    margin-top: 10px;
+}
+

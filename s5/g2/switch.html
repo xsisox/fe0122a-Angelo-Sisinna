@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costrutto switch</title>
+</head>
+<body>
+<script>
+
+var weekend = "venerdi";
+
+switch(weekend) {
+    case 'lunedi':
+        console.log("questo è il caso 0");
+        break; 
+    case 'martedi':
+        console.log("questo è il caso 1");
+        break; 
+    case 'mercoledi':
+        console.log("questo è il caso 2");
+        break;
+    case 'giovedi':
+        console.log("questo è il caso 3");
+        break;
+    case 'venerdi':
+        console.log("questo è il caso 4");
+        break; //break verifica una condizione che interrompe il ciclo al verificarsi della condizione, in questo caso interromperà perche 'venerdi'
+    case 'sabato':
+        console.log("questo è il caso 5");
+        break;
+    case 'domenica':
+        console.log("questo è il caso 6");
+    default: // questo è il caso di default che si esegue se nessuna delle condizioni sopra vengono soddisfatte
+        console.log("questo è il del default"); 
+}
+
+
+var stagione = 'estate';
+
+switch(stagione){
+    case "autunno":
+        console.log("si va a castagne")
+    break;
+    case "inverno":
+        console.log("accendi il camino")
+    break;
+    case "primavera":
+        console.log("fioriscono i mandorli")
+    break;
+    case "estate":
+        console.log("fa troppo caldo")
+    break;
+    default:
+        console.log("non hai scelto nessuna stagione");
+
+}
+</script>
+
+    
+</body>
+</html>

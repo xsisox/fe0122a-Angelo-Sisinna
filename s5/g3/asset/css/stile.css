@@ -1,0 +1,18 @@
+.isBold{
+    font-weight: bold};
+
+.isItalic{
+    font-style: italic;
+}
+
+.isGreen{
+    background-color: green;
+}
+
+.is30px{
+    font-size: 30px;
+}
+
+.isPurple{
+    color: purple;
+}

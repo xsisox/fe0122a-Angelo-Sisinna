@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/stile.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="bold">bold</button>
+    <button id="italic">italic</button>
+    <button id="backgrnd">background color</button>
+    <button id="grandezza">30 px</button>
+    <button id="purple">purple</button>
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse magni sed cupiditate, nobis officia suscipit excepturi eveniet laudantium obcaecati tempore. Laudantium praesentium exercitationem doloremque quis cumque quia, nobis veritatis reprehenderit?</p>
+
+    <script>
+       let testoDaManipolare = document.querySelector('p'); //inserisco il paragrafo nella variabile
+
+       //tasto bold
+        let bold = document.querySelector("#bold");
+
+       bold.addEventListener("click", toBold);
+
+       function toBold() {
+           testoDaManipolare.classList.toggle("isBold");
+       }
+       //tasto italic
+       
+       let italic = document.querySelector("#italic");
+
+       italic.addEventListener("click", toItalic);
+
+        function toItalic() {
+            testoDaManipolare.classList.toggle("isItalic");
+        }
+       
+       //tasto background
+
+       let backgrnd = document.querySelector("#backgrnd");
+       background.addEventListener("click", toColor)
+
+       function toColor(){
+            testoDaManipolare.classList.toggle("isColor");
+            
+       }
+
+
+
+    </script>
+</body>
+</html>

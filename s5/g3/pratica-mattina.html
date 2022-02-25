@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .item{
+        background-color: white;
+    }
+</style>
+
+    <input type="text" id="aggiunta"><button id="bottone">aggiungi</button>
+
+<ul id="lista"></ul>
+
+    <script>
+        let bottone = document.getElementById("bottone");
+
+        bottone.addEventListener("click", function(){
+            /*selezione e lettura elementi*/
+            let aggiunta = document.getElementById("aggiunta").value;
+            let lista = document.getElementById("lista");
+
+            //lista.innerHTML += `<li> ${aggiunta} </li>`
+
+            /* creazione elemento*/
+            var li = document.createElement("li") //crea il tag li 
+            li.innerHTML = aggiunta //scrivi l'aggiunta al suo interno 
+            //li.style.color = 'red'; //aggiungo stile
+            li.classList.add('item'); //aggiungo una classe
+            //console.log(li)
+
+            /*aggiunta funzioni all elemento che ancora non esiste*/
+            li.addEventListener("click", function(){
+                li.remove();
+            })
+
+            /*aggiunta delle elementio*/
+            lista.append(li)//"append" aggiungi il il in fondo alla lista - "prepend" on top della lista
+
+            /*salvataggio dati*/
+
+            //let db = localStorage.getItem('lista')
+            //let arr = []
+            //localStorage.setItem('item', aggiunta);
+            //localStorage.setItem(chiave)
+
+            //versione estesa
+           /* if(localStorage.setItem('lista') == null){
+                var db = JSON.stringify([aggiunta])
+
+            }else{
+                var db = JSON.parse(localStorage.getItem('lista'))
+                db.push(aggiunta)
+            }*/
+
+            //Oppure
+            var ls = localStorage.getItem('lista')
+            var db = ls ? JSON.parse(ls) : []
+            db.push(aggiunta)
+            
+            localStorage.setItem('lista',JSON.stringify (db));
+            //console.log(JSON.parse( localStorage.getItem('lista')))
+
+
+        })
+
+       /* function creaHtml(){
+            var listaSalvati= JSON.parse(localStorage.getItem
+            ('listaSalvati'))
+
+            listaSalvati.forEach(function
+            )
+        }*/
+
+
+
+    </script>
+</body>
+</html>

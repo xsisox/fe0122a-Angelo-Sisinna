@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>drop down menu</title>
+</head>
+<body>
+
+    <style>
+        .tendina{
+            display: none;
+        }
+    </style>
+
+    <nav id="menu">
+        <button class="toggle">menu</button>
+        <ul class="tendina nascosto">
+            <li><a href="#"></a>item</li>
+            <li><a href="#"></a>item</li>
+            <li><a href="#"></a>item</li>
+        </ul>
+
+        <button id="btn_menu"></button>
+    </nav>
+
+
+
+    <script>
+
+        let toggle = document.querySelector('#menu.toggle'); //richiamo creando una variabile 
+
+        //se clicco sull elemento toggle esegui questa funzione 
+        toggle.addEventListener('click',function(){
+
+        let tendina = document.querySelector('.tendina')//creo la variabile tendina e
+            tendina.classList.toggle('nascosto')
+
+
+        });
+
+
+
+       //---------------------pulsantiera-------------------------------------------
+    </script>
+
+    
+    
+</body>
+</html>

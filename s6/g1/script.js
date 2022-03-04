@@ -1,5 +1,5 @@
 // Quando il documento è pronto...
-    $(document).ready(()=>{
+    $(document).ready(()=>{ //inizializzo con funzione freccia 
         
         $("#iscr-news").click(function(){ //gestisco il click sul pulsante Iscriviti
             var controllo = $("#nome").val();

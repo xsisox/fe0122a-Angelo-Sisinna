@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "Nome": "Fiat 500X",
+        "AnnoImmatricolazione": 2021,
+        "TipoDiCarburante": "Diesel",
+        "Colore": "Rosso",
+        "ChilometriPercorsi": 1200,
+        "PaeseProduzione": "Italia",
+        "Cavalli": 120,
+        "VelocitàMassima": "120 Km/h",
+        "PrezzoVendita": "€ 18.000,00",
+        "NomeFileImmagine": "500x.png"
+    },
+    {
+        "id": 2,
+        "Nome": "BMW X1",
+        "AnnoImmatricolazione": 2022,
+        "TipoDiCarburante": "Diesel",
+        "Colore": "Blu",
+        "ChilometriPercorsi": 0,
+        "PaeseProduzione": "Germania",
+        "Cavalli": 180,
+        "VelocitàMassima": 220,
+        "PrezzoVendita": "31.000,00",
+        "NomeFileImmagine": "bmw_x1.png"
+    },
+    {
+        "id": 3,
+        "Nome": "JEEP COMPASS 4xe",
+        "AnnoImmatricolazione": 2021,
+        "TipoDiCarburante": "Benzina",
+        "Colore": "Grigio",
+        "ChilometriPercorsi": 0,
+        "PaeseProduzione": "USA",
+        "Cavalli": 190,
+        "VelocitàMassima": 220,
+        "PrezzoVendita": "45.500,00",
+        "NomeFileImmagine": "jeep_compass_4xe.png"
+    },
+    {
+        "id": 4,
+        "Nome": "JEEP COMPASS",
+        "AnnoImmatricolazione": 2021,
+        "TipoDiCarburante": "Diesel",
+        "Colore": "Blu",
+        "ChilometriPercorsi": 500,
+        "PaeseProduzione": "USA",
+        "Cavalli": 130,
+        "VelocitàMassima": 180,
+        "PrezzoVendita": "35.000,00",
+        "NomeFileImmagine": "jeep_compass.png"
+    },
+    {
+        "id": 5,
+        "Nome": "JEEP RENEGADE LIMITED",
+        "AnnoImmatricolazione": 2019,
+        "TipoDiCarburante": "Diesel",
+        "Colore": "Bianca",
+        "ChilometriPercorsi": 80,
+        "PaeseProduzione": "USA",
+        "Cavalli": 120,
+        "VelocitàMassima": 200,
+        "PrezzoVendita": "28.650,00",
+        "NomeFileImmagine": "jeep_renegade.png"
+    },
+    {
+        "id": 6,
+        "Nome": "JEEP WRANGLER",
+        "AnnoImmatricolazione": 2000,
+        "TipoDiCarburante": "Benzina",
+        "Colore": "Bianca",
+        "ChilometriPercorsi": 0,
+        "PaeseProduzione": "USA",
+        "Cavalli": 190,
+        "VelocitàMassima": 220,
+        "PrezzoVendita": "60.500,00",
+        "NomeFileImmagine": "jeep_compass_4xe.png"
+    },
+    {
+        "id": 7,
+        "Nome": "WOLKSWAGEN T-CROSS",
+        "AnnoImmatricolazione": 2021,
+        "TipoDiCarburante": "Diesel",
+        "Colore": "Bianca",
+        "ChilometriPercorsi": 0,
+        "PaeseProduzione": "Germania",
+        "Cavalli": 190,
+        "VelocitàMassima": 220,
+        "PrezzoVendita": "32.000,00",
+        "NomeFileImmagine": "tcross.png"
+    }
+]

@@ -1,3 +1,4 @@
+//mi collego al file json
 fetch('Abbigliamento.json')
 .then(res => res.json())
 .then(data => {
@@ -7,7 +8,7 @@ fetch('Abbigliamento.json')
         //console.log(capi)
     })
 })
-
+//creo la classe
 class Vestiti{
 
     id: number
@@ -35,24 +36,29 @@ class Vestiti{
         this.disponibile = disponibile
         this.saldo = saldo
     } 
-
-    public getSaldoCapo():number {
+    //creo il metodo per il saldo 
+    public getSaldoCapo():any {
        
-        return this.prezzoivainclusa * this.saldo / 100
+        return (this.prezzoivainclusa * this.saldo / 100).toFixed(2)
     }
-
-   public getAcquistoCapo():number{
+    //creo il metodo per l'acquisto 
+   public getAcquistoCapo():any{
         
         let sconto = this.prezzoivainclusa * this.saldo / 100;
-        return this.prezzoivainclusa - sconto
+        let prezzo = this.prezzoivainclusa
+        return (prezzo - sconto).toFixed(2)
     }
 }
 
 //CAPI ABBIGLIAMENTO
-let capo1 = new Vestiti(1,22333,"estate", "cardigan",123123,2,"nero", 18.50, 22.57, "negozio", 45)
-let capo2= new Vestiti (4,4111,"estate","t-shirt",1251,6,"rosso",5.50,6.71,"magazzino",30)
-let capo3= new Vestiti (3,1181,"inverno","felpa",1229,8,"beige",17.50,21.35,"negozio",50)
+let capo1 = new Vestiti (1,2121,"primavera","cardigan",1231,5,"nero",18.50,22.57,"negozio",45)
+let capo2 = new Vestiti (2,4111,"estate","t-shirt",1251,6,"rosso",5.50,6.71,"magazzino",30)
+let capo3 = new Vestiti (3,1181,"inverno","felpa",1229,8,"beige",17.50,21.35,"negozio",50)
+let capo4 = new Vestiti (4,1111,"estate","maglione",1221,4,"verde",20,24.40,"negozio",50)
+let capo5 = new Vestiti (5,6111,"primavera","maglia",1021,5,"blu",11,13.42,"magazzino",60)
 
+
+//li mostro in console
 console.log(capo1)
 console.log(`Lo sconto è di ${capo1.getSaldoCapo()} €`)
 console.log(`Il prezzo scontato è di ${capo1.getAcquistoCapo()} €`)
@@ -65,4 +71,10 @@ console.log(capo3)
 console.log(`Lo sconto è di ${capo3.getSaldoCapo()} €`)
 console.log(`Il prezzo scontato è di ${capo3.getAcquistoCapo()} €`)
 
+console.log(capo4)
+console.log(`Lo sconto è di ${capo4.getSaldoCapo()} €`)
+console.log(`Il prezzo scontato è di ${capo4.getAcquistoCapo()} €`)
 
+console.log(capo5)
+console.log(`Lo sconto è di ${capo5.getSaldoCapo()} €`)
+console.log(`Il prezzo scontato è di ${capo5.getAcquistoCapo()} €`)
